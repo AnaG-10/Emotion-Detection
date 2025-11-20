@@ -108,7 +108,7 @@ def infer(img_path, bbox=None):
 # RUN EXAMPLE
 # -----------------------------------------------------------
 if __name__ == "__main__":
-    img_path = "sample.png  "    # change image here
+    img_path = "./sample.png"    # change image here
     bbox = None                # or (x1,y1,x2,y2)
 
     pred, probs = infer(img_path, bbox=bbox)
